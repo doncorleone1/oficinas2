@@ -1,0 +1,26 @@
+.boxOrders {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contentColumn {
+    font-family: 'Imprima', sans-serif;
+    text-transform: uppercase;
+}
+
+.labelHeader {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.labelNoOrders {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.paymentLabel {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}

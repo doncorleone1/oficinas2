@@ -1,0 +1,49 @@
+.boxImg {
+	max-width: 300px;
+	height: 250px;
+}
+
+.boxHighProduct {
+	border: 1px solid black;
+	border-radius: 3px;
+	max-width: 350px;
+	text-align: center;
+	height: 570px;
+}
+
+.containerBox {
+	margin-bottom: 100px;
+	margin-top: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.imgProduct {
+	max-width: 300px;
+	max-height: 250px;
+	height: auto;
+}
+
+.importantLabel {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.noProducts {
+	font-size: 25px;
+	font-weight: 700;
+	font-family: 'Capriola', cursive;
+}
+
+.titleProduct {
+	font-family: 'Comfortaa', cursive;
+	font-size: 27px;
+	font-weight: 700;
+	height: 60px;
+}
+
+.titleList {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Comfortaa', cursive;
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.iconButton {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.box {
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	margin: 10px auto;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+}

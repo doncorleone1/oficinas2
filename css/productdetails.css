@@ -1,0 +1,32 @@
+.boxImg {
+	max-width: 400px;
+	height: 300px;
+}
+
+.imgProduct {
+	max-width: 400px;
+	max-height: 300px;
+	height: auto;
+}
+
+.labelCart {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.priceLabel {
+    font-family: 'Convergence', sans-serif;
+    font-size: 20px;
+}
+
+.priceBilletLabel {
+    font-family: 'Convergence', sans-serif;
+    font-size: 30px;
+}
+
+.titleProduct {
+    font-weight: 700;
+    font-family: 'Capriola', sans-serif;
+    font-size: 40px;
+}

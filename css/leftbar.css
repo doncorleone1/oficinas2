@@ -1,0 +1,16 @@
+.basicIcon {
+  color: #673ab7;
+}
+
+.labelNavigation {
+  font-family: 'Capriola', sans-serif;
+}
+
+.leftBContainer {
+  margin-left: 5px;
+  border-radius: 15px;
+  max-width: 400px;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}

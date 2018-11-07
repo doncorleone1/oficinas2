@@ -1,0 +1,11 @@
+.labelLink {
+    font-family: 'Convergence', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.headerFooter {
+    font-family: 'Capriola', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}

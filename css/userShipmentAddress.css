@@ -1,0 +1,13 @@
+
+.addressContent {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.identifier {
+    color: #000000;
+    font-family: 'Capriola', sans-serif;
+    font-size: 20px;
+    height: auto;
+    text-transform: uppercase;
+}
