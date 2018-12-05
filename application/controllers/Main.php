@@ -48,7 +48,7 @@ class Main extends CI_Controller {
                 $this->load->view('main', $myNewServices);
             // }
         } else {
-            header('Location:'. base_url('Main'));
+            header('Location:'. base_url('AdminConfig'));
         }
     }
 }

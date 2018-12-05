@@ -19,9 +19,9 @@
                     echo "<a href='#' data-activates='mobile-demo' class='button-collapse'><i class='material-icons'>menu</i></a>";
 
                     echo "<ul class='hide-on-med-and-down'>";
-                        echo "<li><a href='". $mainURL ."'>Início</a></li>";
+                        // echo "<li><a href='". $mainURL ."'>Início</a></li>";
                         echo "<li><a href='". $adminURL ."'>Administração</a></li>";
-                        echo "<li><a href='". $uploadURL ."'>Upload</a></li>";
+                        // echo "<li><a href='". $uploadURL ."'>Upload</a></li>";
                         echo "<li><a href='". $logoutURL ."'>Logout</a></li>";
                     echo "</ul>";
                 ?>
