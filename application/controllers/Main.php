@@ -41,12 +41,12 @@ class Main extends CI_Controller {
         if($typeUser != 'admin') {
             $this->load->model('servico_model');
             $myService =  $this->servico_model->findByCPF($this->session->userdata('userCPF'));
-            if($myService == NULL) {
-                echo "não existe usuário cadastrado";
-            } else {
+            // if($myService == NULL) {
+            //     echo "não existe serviço cadastrado";
+            // } else {
                 $myNewServices['myService'] = $myService;
                 $this->load->view('main', $myNewServices);
-            }
+            // }
         } else {
             header('Location:'. base_url('Main'));
         }

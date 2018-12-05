@@ -14,6 +14,8 @@
 		<!--Let browser know website is optimized for mobile-->
 		<link type="text/css" rel="stylesheet" href="<?php echo base_url();?>css/materialize.min.css" media="screen,projection">
       	<link type="text/css" rel="stylesheet" href="<?php echo base_url();?>css/main.css">
+		  <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>css/navbar.css">
+		<link type="text/css" rel="stylesheet" href="<?php echo base_url();?>css/footer.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

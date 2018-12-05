@@ -13,6 +13,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 	  	<link type="text/css" rel="stylesheet" href="<?php echo base_url();?>css/materialize.min.css" media="screen,projection">
 		<link type="text/css" rel="stylesheet" href="<?php echo base_url();?>css/register.css">
+		<link type="text/css" rel="stylesheet" href="<?php echo base_url();?>css/navbar.css">
+		<link type="text/css" rel="stylesheet" href="<?php echo base_url();?>css/footer.css">
   		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 	<body>

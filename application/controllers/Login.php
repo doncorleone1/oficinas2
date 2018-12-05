@@ -24,7 +24,7 @@ class Login extends CI_Controller {
         $this->load->library('form_validation');
 
         $this->form_validation->set_rules('cpfUser', 'CPF', 'required');
-        $this->form_validation->set_rules('passwordUser', 'Senha', 'required',
+        $this->form_validation->set_rules('passwordUser', 'password', 'required',
                 array('required' => 'You must provide a %s.')
         );
 
