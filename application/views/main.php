@@ -47,9 +47,76 @@
             } else {
                 $this->load->view('navbarclient');
                 echo "<div class='box'>";
-                // foreach ($myNewServices as $actualService) {
-                //     echo "<label>". $actualService['STATUS'] ." - ". $actualService['REFERENCIA'] ."</label>";
-                // }
+                echo "<h4 class='border-bottom'>Meus serviços</h4>";
+                $status = "";
+                $tipo = "";
+                foreach ($myService as $actualService) {
+                    switch ($actualService['STATUS']) {
+                        case 1:
+                            $status = "Iniciado";
+                            break;
+                        case 2:
+                            $status = "Em andamento";
+                            break;
+                        case 3:
+                            $status = "Aguardando vistoria";
+                            break;
+                        case 4:
+                            $status = "Aguardando DETRAN";
+                            break;
+                        case 5:
+                            $status = "Em vistoria";
+                            break;
+                        case 6:
+                            $status = "Cancelado";
+                            break;
+                        case 7:
+                            $status = "Finalizado";
+                            break;
+                        default:
+                            $status = "error";;
+                            break;
+                    }
+
+                    switch ($actualService['TIPO']) {
+                        case 1:
+                            $tipo = "Transferência de veículo";
+                            break;
+                        case 2:
+                            $tipo = "Pagamento IPVA";
+                            break;
+                        case 3:
+                            $tipo = "Pagamento DPVAT";
+                            break;
+                        case 4:
+                            $tipo = "Pagamento Licenciamento";
+                            break;
+                        case 5:
+                            $tipo = "Mudança de Cor";
+                            break;
+                        case 6:
+                            $tipo = "Emplacamento Carro";
+                            break;
+                        case 7:
+                            $tipo = "Emplacamento Moto";
+                            break;
+                        case 8:
+                            $tipo = "Alteração de Dados";
+                            break;
+                        case 9:
+                            $tipo = "2ª Via de Recibo";
+                            break;
+                        case 10:
+                            $tipo = "2ª Via de Documento";
+                            break;
+                        default:
+                            $tipo = "error";;
+                            break;
+                    }
+                    echo "<div class='row-client'>
+                    <label class='label-client'>" . "Serviço: ". $tipo ." <br> ". "Descrição: " . $actualService['REFERENCIA'] . " <br> " ."Status: ". $status ."</label> <br>
+                    </div>";
+                }
                 echo "</div>";
             }
             $this->load->view('footer');

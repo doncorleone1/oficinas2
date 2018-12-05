@@ -32,21 +32,19 @@ class Main extends CI_Controller {
             array_push($relationOfServices, $itemToBeInsert);
         }
         $dataCharts['relationServices'] = $relationOfServices;
-
-        $this->load->view('main', $dataCharts);
+        
+        $this->load->model('servico_model');
+        $myService = array();
+        $myService =  $this->servico_model->FindServiceByCPF($this->session->userdata('userCPF'));
+        $myNewServices['myService'] = $myService;
+        $this->load->view('main', $myNewServices);
     }
 
     public function LoadMain() {
         $typeUser = $this->session->userdata('userType');
         if($typeUser != 'admin') {
-            $this->load->model('servico_model');
-            $myService =  $this->servico_model->findByCPF($this->session->userdata('userCPF'));
-            // if($myService == NULL) {
-            //     echo "não existe serviço cadastrado";
-            // } else {
-                $myNewServices['myService'] = $myService;
-                $this->load->view('main', $myNewServices);
-            // }
+            header('Location:'. base_url('Main'));
+            
         } else {
             header('Location:'. base_url('AdminConfig'));
         }

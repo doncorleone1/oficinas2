@@ -35,7 +35,7 @@
                 $this->db->where('CLIENTE_CPF', $cpf);
                 $query = $this->db->get('servico');
                 if ($query->num_rows() > 0) {
-                    return $query->row_array();
+                    return $query->result_array();
                 } else {
                     return null;
                 }

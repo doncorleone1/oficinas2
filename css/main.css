@@ -14,3 +14,24 @@
 	border-width: 1px;
 	border-style: solid;
 }
+
+.row-client {
+	font-size: 15px;
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.border-bottom {
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.label-client {
+	font-size: 15px;
+}
